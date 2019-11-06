@@ -1,5 +1,5 @@
 # most-starred-github-projects-cloning-script
-This bash script clones 1000 most starred i.e. popular (as par November 2019) Java projects in GitHub. This data set can be used for various empirical software engineering research projects. To clone the project run - 
+This bash script clones 1000 most starred i.e. popular (as par November 2019) Java projects in GitHub. This dataset can be used for various empirical software engineering research projects. To clone the projects run - 
 
 `./git_clone.sh`
 
