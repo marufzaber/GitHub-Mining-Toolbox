@@ -5,6 +5,13 @@
 ## 2019) Java projects in GitHub. 					 ##
 #######################################################
 
+git --version 2>&1 >/dev/null
+GIT_IS_AVAILABLE=$?
+
+if [ $GIT_IS_AVAILABLE -gt 0 ]; then 
+	echo 'Install `Git` and re-run the script...'
+	exit 1
+fi
 
 mkdir -p Projects
 cd Projects
